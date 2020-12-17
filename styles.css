@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant&display=swap");
+
+:root {
+  --primary: rgb(10, 4, 4);
+}
+
+body {
+  font-family: "Assistant", sans-serif;
+  margin: 0%;
+  /* background-image: url("images/groot.png"); */
+  background-repeat: repeat;
+}
+
+.header {
+  background-color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.navigation {
+  max-width: 600px;
+  margin: auto;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.body-container {
+  max-width: 600px;
+  margin: auto;
+  display: block;
+  flex-direction: column;
+}
+
+textarea {
+  border-radius: 0.5rem strong;
+  box-sizing: border-box;
+  display: block;
+  width: 85%;
+  min-height: 20vh;
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+button {
+  background-color: var(--primary);
+  color: white;
+  margin: auto;
+  font-size: large;
+  text-align: center;
+  cursor: pointer;
+  font-family: "Assistant", sans-serif;
+}
+
+#txt-output {
+  box-sizing: border-box;
+  width: 85%;
+  min-height: 10vh;
+  max-height: 20vh;
+  overflow: scroll;
+  margin: 0rem auto 2rem auto;
+  border: 1px solid var(--primary);
+  border-color: black;
+}
+
+.msg {
+  padding: 1rem 2rem;
+  color: var(--primary);
+  text-align: center;
+  width: 50%;
+  margin: 0rem auto 0.5rem auto;
+}
+
+.footer {
+  max-width: 100%;
+  display: block;
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+}
+
+.footer-head {
+  text-align: center;
+}
