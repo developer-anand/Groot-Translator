@@ -8,7 +8,8 @@ var txtOutput = document.querySelector("#txt-output");
 //for writing value
 //.value
 
-let serverUrl = "https://api.funtranslations.com/translate/groot.json";
+// let serverUrl = "https://api.funtranslations.com/translate/groot.json";
+let serverUrl = "https://api.funtranslations.com/translate/pirate.json";
 
 function getTranslationURL(input) {
   return serverUrl + "?" + "text=" + input;
